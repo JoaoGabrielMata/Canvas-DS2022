@@ -34,8 +34,12 @@ for(var b = 0; b <= 30; b++){
     c.stroke();
 }
 
-//desenhar estrela 
-//https://www.tutorialspoint.com/How-to-draw-a-star-by-using-canvas-HTML5
+
+
+
+
+
+//Estrela 
     var randomColor = Math.floor(Math.random()*16777215).toString(16);
     c.fillStyle = "#" +  randomColor;
     c.beginPath();
@@ -53,8 +57,7 @@ for(var b = 0; b <= 30; b++){
     c.closePath();
     c.fill();
 
-//desenhar coração
-//https://developer.mozilla.org/pt-BR/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+//Coração
     var randomColor = Math.floor(Math.random()*16777215).toString(16);
     // Exemplo de curvas de Bézier cúbicas
     c.fillStyle = "#" +  randomColor;
@@ -68,8 +71,7 @@ for(var b = 0; b <= 30; b++){
     c.bezierCurveTo(85,25,75,37,75,40);
     c.fill();
 
-//desenhar batman
-//https://codepen.io/travissanon/pen/YEPwGM
+//Morceguito
     c.beginPath();
     c.moveTo(1000/5, 800/5);
     c.quadraticCurveTo(1000/5, 460/5, 1390/5, 650/5);
@@ -92,15 +94,3 @@ for(var b = 0; b <= 30; b++){
     var randomColor = Math.floor(Math.random()*16777215).toString(16); 
     c.fillStyle = "#" + randomColor; 
     c.fill();
-
-
-
-
-//extra
-for(var rt = 0; rt <= 10; rt++){
-    var randomColor = Math.floor(Math.random()*16777215).toString(16); 
-    c.fillStyle = "#" + randomColor; 
-    c.fillRect(dx,dy,100,50); 
-    dx = Math.floor(Math.random()*500+100) ; 
-    dy = Math.floor(Math.random()*600) ; 
-}
