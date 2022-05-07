@@ -80,7 +80,7 @@ document.addEventListener("keyup", function(e){
     console.log (e.key)
     vy=0
     vy=-4
-    AnimaçãoB()
+    AnimaçãoC()
     }
 }) // Verifica se a tecla escolhida foi pressionada 
 
