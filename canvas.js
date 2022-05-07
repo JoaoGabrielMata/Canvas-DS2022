@@ -1,4 +1,4 @@
-var dx=0, dy=200, // Eixo X e Y
+var dx=0, dy=0, // Eixo X e Y
 vx=10, vy=10 // Velocidade da Figura
 // Tecla1=false
 var canvas = document.querySelector('canvas')
